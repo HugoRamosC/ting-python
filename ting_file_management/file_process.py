@@ -25,5 +25,15 @@ def remove(instance: Queue):
         print(f"Arquivo {removed_name} removido com sucesso", file=sys.stdout)
 
 
-def file_metadata(instance, position):
-    """Aqui irá sua implementação"""
+def file_metadata(instance: Queue, position):
+    if not (0 <= position < len(instance)):
+        print('Posição inválida', file=sys.stderr)
+    else:
+        path_file = instance.queue[position]
+        content_list = txt_importer(path_file)
+        file_dict = {
+            'nome_do_arquivo': path_file,
+            'qtd_linhas': len(content_list),
+            'linhas_do_arquivo': content_list,
+        }
+        print(file_dict, file=sys.stdout)
