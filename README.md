@@ -16,8 +16,8 @@ Para isso, o programa desenvolvido tem dois módulos:
 - Python;
 - Manipular Pilhas;
 - Manipular Deque;
-- Manipular Nó & Listas Ligadas e;
-- Manipular Listas Duplamente Ligadas;
+- Manipular Nó & Listas Ligadas;
+- Manipular Listas Duplamente Ligadas e;
 - Complexidade de Algoritmos.
 
 
