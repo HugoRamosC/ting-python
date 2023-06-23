@@ -4,7 +4,7 @@
 
 ## O que foi desenvolvido?
 
-Neste projeto foi implementado um programa que simula um algoritmo de indexação de documentos similar ao do Google, com foco na complexidade algorítimica. O programa é capaz de identificar ocorrências de termos em arquivos TXT.
+Neste projeto foi implementado um programa que simula um algoritmo de indexação de documentos similar ao do Google, com foco na complexidade algorítmica. O programa é capaz de identificar ocorrências de termos em arquivos TXT.
 
 Para isso, o programa desenvolvido tem dois módulos:
 
